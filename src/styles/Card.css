@@ -1,0 +1,188 @@
+.back .card-title {
+    margin-bottom: 20px;
+}
+
+.card {
+  border: 0;
+  height: 100%;
+  margin: 8px;
+}
+
+.card:hover .settings{
+  visibility: visible;
+}
+
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.card-body {
+    padding: 20px 0;
+}
+
+.card-container {
+  margin-bottom: 10px;
+  min-height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    padding: 0;
+    min-height: 150px;
+  }
+}
+
+.card-img-top {
+  padding-top: 16px;
+  text-align: center;
+  width: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-img-top {
+        width: 50px;
+    }
+}
+
+.card-img-top-small {
+  float: left;
+  height: 60px;
+  padding: 15px;
+  width: 60px;
+}
+
+.card-small {
+  border: 0;
+  border-radius: 5px;
+  height: 100%;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.coin-name {
+  padding: 5px;
+  text-align: left;
+}
+
+.coin-name b, .coin-value b, small {
+  display: block;
+  line-height: 25px;
+  margin: 0;
+}
+
+.coin-value {
+  padding: 5px;
+  text-align: right;
+}
+
+.col.coin-value {
+    height: auto;
+}
+
+.col {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.fa-gear.fa-spin {
+  animation: fa-spin 5s infinite linear;
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-gear.fa-spin {
+        display: none;
+    }
+}
+
+.green {
+  color: #099809;
+}
+
+@media only screen and (min-width: 768px) {
+  .green {
+    display: inline;
+  }
+}
+
+.h-0 {
+    height: 0 !important;
+}
+
+.pull-left {
+  left: 0;
+  position: relative !important;
+}
+
+.red {
+  color: #fb1b1b;
+}
+
+@media only screen and (min-width: 768px) {
+  .red {
+    display: inline;
+  }
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.settings {
+    visibility: hidden;
+}
+
+.settings-small{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.settings-title{
+  margin-top: 30px;
+}
+
+.slider {
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #333840;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #333840;
+    cursor: pointer;
+}
+
+.slider.MuiSlider-root {
+    width: 80%;
+}
+
+b {
+  font-weight: 600;
+}
+
+label{
+  margin-bottom: 0;
+  vertical-align: middle;
+}

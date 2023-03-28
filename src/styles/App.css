@@ -1,0 +1,39 @@
+.header {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.page {
+  margin: auto;
+  max-width: 1400px;
+}
+
+body {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+body .MuiFormLabel-root,
+body .MuiMenuItem-root,
+body .MuiOutlinedInput-input,
+body .MuiOutlinedInput-notchedOutline,
+body .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+body .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline,
+body .MuiSvgIcon-root,
+body .MuiTypography-colorTextSecondary {
+  margin: 5px;
+}
+
+legend {
+  float: initial;
+}
+
+.MuiAlert-message {
+  margin: auto;
+}

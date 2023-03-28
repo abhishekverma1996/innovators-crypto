@@ -1,0 +1,38 @@
+hr {
+  margin: 16px auto;
+  width: 60%;
+}
+
+input {
+  border-radius: 5px;
+  border-width: 1px;
+  height: 65%;
+  vertical-align: middle;
+}
+
+.add-input {
+  margin-top: 15px;
+}
+
+.add-section-icon {
+  cursor: pointer;
+  float: left;
+  transform: none;
+  width: 32px;
+}
+
+.menu-icon {
+  cursor: pointer;
+  float: right;
+  width: 32px;
+}
+
+.rotate {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Safari 3-8 */
+  transform: rotate(180deg);
+}
+
+.title {
+  margin: 16px;
+}
