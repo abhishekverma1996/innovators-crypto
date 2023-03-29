@@ -95,7 +95,7 @@ class Settings extends Component {
               variant='contained'
               className='m-1'
               color='primary'
-              onClick={() => exportFromJSON({ data: this.props.data, fileName: 'cryptolio_data', exportType: 'json' })}
+              onClick={() => exportFromJSON({ data: this.props.data, fileName: 'innovatorscryto_data', exportType: 'json' })}
               startIcon={<CloudDownload />}
             >
               Download Data
@@ -338,7 +338,7 @@ class Settings extends Component {
           <div>
             <h6>{`Assets Available: ${(this.props.data.availableAssets || 0).length}`}</h6>
             Version: {process.env.REACT_APP_VERSION} |
-            <a className='ml-2 mr-2 text-white' href='https://github.com/alecsloan/cryptolio' rel='noopener noreferrer' target='_blank'>
+            <a className='ml-2 mr-2 text-white' href='https://github.com/abhishekverma1996' rel='noopener noreferrer' target='_blank'>
               <IconButton
                 aria-label='github repo'
                 color='inherit'
@@ -346,7 +346,7 @@ class Settings extends Component {
                 <GitHub />
               </IconButton>
             </a> |
-            Caveat Emptor
+            Made With Love Innovators
           </div>
         </div>
       </Drawer>

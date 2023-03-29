@@ -36,7 +36,7 @@ class Header extends Component {
     })
 
     setTimeout(() => {
-      document.getElementById('cryptoassets').focus()
+      document.getElementById('Add Crypto In your list').focus()
     }, 50)
   }
 
