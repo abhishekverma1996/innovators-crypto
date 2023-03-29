@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c95c752f-a006-47bb-9b3f-8269fc9d0a14/deploy-status)](https://app.netlify.com/sites/cryptolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c95c752f-a006-47bb-9b3f-8269fc9d0a14/deploy-status)](
+    s)
 # Explore the world of cryptoassets
 ## Simulate price gain to see your earning potential!
 
